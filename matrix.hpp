@@ -12,6 +12,11 @@ class matrix{
     };
     size_t getRowSize() const;
     size_t getColSize() const;
+    void resize();
     double at(size_t row, size_t col) const;
     void set(size_t row, size_t col, double value);
+    matrix operator+(const matrix addend) const;
+    matrix operator-(const matrix subtrahend) const;
+    matrix operator*(const matrix multiplicand) const;
+    matrix operator*(const double multiplier) const;
 }

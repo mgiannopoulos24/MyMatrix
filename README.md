@@ -1,3 +1,3 @@
 # MyMatrix
 ## Info:
-Some class definitions for matrix transformations on contiguous memory block, that makes for faster changing of numbers, setting and operations.
+This is just the default files for the creation of a matrix object. With this basis I can already initialize and operate on matrix objects that are one dimensional (vectors) and two dimensional (matrices). The objective is to prioritize a mix of speed, clarity and memory safety, which is why I stay simple and use contiguous vector spaces to store data and use a very slight overhead (a simple operation) to translate it into two dimensional coordinates. This project is an intermediate for my "from zero" project on a Machine Learning library in C++.
